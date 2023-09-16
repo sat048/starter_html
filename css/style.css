@@ -1,0 +1,72 @@
+body{
+    background-color: green;
+}
+h1{
+    font-size: medium;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+h2{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+}
+
+h3{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+p{
+    line-height: 4.9mm;
+}
+img{
+    border: 5px;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+li{
+    margin-left: 50px;
+}
+nav{
+    border: 2px solid black;
+}
+li {
+    display: inline-block;
+    height: 5px;
+    color: white;
+}
+nav a{
+    background-color: black;
+    padding: 5px;
+    margin: 20px;
+}
+
+a{
+    text-align: blue;
+}
+
+#skip{
+    left: 200px;
+}
+
+#skip:focus{
+    text-transform: uppercase;
+    position: absolute;
+    left: -500px;
+}
+
+.thumbnail{
+    border: 20px solid blue;
+    padding: 20px;
+    margin: auto;
+    width: 250px;
+    display: block;
+    border-radius: 25px;
+}
+
+gif {
+    display: none;
+}
